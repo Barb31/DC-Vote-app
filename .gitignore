@@ -1,0 +1,43 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Compiled contract artifacts
+/build
+/artifacts
+/cache
+
+# Truffle and Hardhat specific
+*.log
+truffle-config.js.*
+hardhat.config.js.*
+.secret
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore ABI files
+*.abi
+*.bin
+
+# Ignore compiled JSON files
+*.json
+
+# Coverage reports
+coverage/
