@@ -1,0 +1,13 @@
+{
+  "name": "voting-backend",
+  "version": "1.0.0",
+  "description": "Backend for decentralized voting app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.5.2"
+  }
+}
