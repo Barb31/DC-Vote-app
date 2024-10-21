@@ -1,0 +1,26 @@
+{
+  "name": "decentralized-voting",
+  "version": "1.0.0",
+  "description": "A decentralized voting application using blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test", // Run Truffle tests
+    "compile": "truffle compile", // Compile Solidity contracts
+    "migrate": "truffle migrate", // Deploy contracts to blockchain
+    "dev": "react-scripts start" // Start React frontend
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.1", // Hardhat dependency for testing
+    "@openzeppelin/contracts": "^4.0.0",   // OpenZeppelin library for contracts
+    "chai": "^4.2.0",                      // Chai library for testing
+    "dotenv": "^8.2.0",                    // For environment variables
+    "ethereumjs-tx": "^1.3.7",             // Library for Ethereum transactions
+    "web3": "^1.3.4"                       // Web3.js for interacting with the Ethereum blockchain
+  },
+  "devDependencies": {
+    "hardhat": "^2.6.4",                   // Hardhat for development and testing
+    "truffle": "^5.3.6"                    // Truffle for development and testing
+  }
+}
